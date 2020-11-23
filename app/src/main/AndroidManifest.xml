@@ -9,18 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".shareAnimator.ShareTwoActivity"></activity>
-        <activity android:name=".shareAnimator.ShareOneActivity" >
-
+        <activity android:name=".ViewPropertyAnimatorActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LayoutTransitionActivity">
+        <activity android:name=".shareAnimator.ShareTwoActivity" />
+        <activity android:name=".shareAnimator.ShareOneActivity">
 
         </activity>
+        <activity android:name=".LayoutTransitionActivity"></activity>
         <activity android:name=".TestActivity" />
         <activity android:name=".ObjectAnimatorActivity" />
         <activity android:name=".ValuesAnimatorActivity" />

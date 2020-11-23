@@ -33,7 +33,6 @@ public class ShareOneActivity extends AppCompatActivity {
 //        getWindow().setEnterTransition(new Explode().setDuration(500).setInterpolator(new AccelerateInterpolator()));
 //        //退出动画
 //        getWindow().setReturnTransition(new Explode().setDuration(500));
-        getWindow().requestFeature(Window.FEATURE_CONTENT_TRANSITIONS);// 允许使用transitions
         //滑动进入动画
         Explode enterAinmator = new Explode();
         //滑动退出动画
