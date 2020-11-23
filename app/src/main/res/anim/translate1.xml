@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="3000"
+    android:fillAfter="true"
+    android:fromXDelta="-100%"
+    android:fromYDelta="-100%"
+    android:toXDelta="100%"
+    android:toYDelta="100%">
+    <!--    android:fillAfter 对应setFillAfter(boolean):动画结束时view是否保持动画最后的状态，默认值为false；-->
+    <!--    android:duration 对应setDuration(long)：动画持续时间，参数单位为毫秒；-->
+</translate>
