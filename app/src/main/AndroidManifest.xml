@@ -10,17 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".ViewPropertyAnimatorActivity">
+
+        </activity>
+        <activity android:name=".overridePendingTransitionActivity2">
+
+        </activity>
+        <activity android:name=".overridePendingTransitionActivity1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<!--        <activity android:name=".ViewPropertyAnimatorActivity" />-->
         <activity android:name=".shareAnimator.ShareTwoActivity" />
-        <activity android:name=".shareAnimator.ShareOneActivity">
-
-        </activity>
-        <activity android:name=".LayoutTransitionActivity"></activity>
+        <activity android:name=".shareAnimator.ShareOneActivity" />
+        <activity android:name=".LayoutTransitionActivity" />
         <activity android:name=".TestActivity" />
         <activity android:name=".ObjectAnimatorActivity" />
         <activity android:name=".ValuesAnimatorActivity" />
