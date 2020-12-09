@@ -5,6 +5,37 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@style/windowAnimatorDemo</item>
     </style>
+
+    <style name="MyAppThem" parent="AppTheme">
+        <!--        设置无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--        设置全屏-->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <style name="windowAnimatorDemo">
+        <item name="android:activityOpenEnterAnimation">@anim/start_enter_from_left</item>
+        <item name="android:activityOpenExitAnimation">@anim/start_exit_to_right</item>
+        <item name="android:activityCloseEnterAnimation">@anim/finish_enter_from_top</item>
+        <item name="android:activityCloseExitAnimation">@anim/finish_exit_to_bottom</item>
+    </style>
+
+    <style name="textViewStyle">
+        <item name="android:textSize">50sp</item>
+        <item name="android:color">#5c000000</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@android:color/holo_blue_light</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextViewStyle1" parent="textViewStyle">
+        <item name="android:textSize">40sp</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+
 
 </resources>
